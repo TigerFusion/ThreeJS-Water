@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Three.js Water Shader</title>
+    <link rel="stylesheet" href="./interface/bootstrap.min.css">
+</head>
+<body onload="threeBar()">
+	<div class="container" style="max-width:700px;">
+        <div class="row">
+			<div class="col-12 text-center">
+				<!-- threejs water -->
+                <div style="position:absolute; top:0px; left:0px; margin-top:-20px;" id="webgl">
+                </div>
+            </div>
+            <div class="col-12 text-center">
+            	<!-- img-fluid resizes the image -->
+				<img class="img-fluid" width="750" height="150" style="margin:10px 0px;" src="./images/logo.png" alt="Solar Fusion Software Logo">
+            </div>
+            <div class="col-12 text-center">
+                <!-- Quote of the day, borders, and padding -->
+				<div class="border border-left-0 border-right-0 border-dark" id="quotes" style="margin-top:60px; padding:2px 0px;">
+                </div>
+                <!-- Menubar for Home, Games, etc. "navbar" is from Bootstrap-->
+                <!--<?php require "../interface/menu.php"; ?>-->
+            </div>
+        </div>
+    </div>
+    <script src="./interface/three.min.js"></script>
+    <script src="./interface/water.js"></script>
+</body>
+</html>
